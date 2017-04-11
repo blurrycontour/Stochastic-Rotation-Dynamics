@@ -1,0 +1,24 @@
+#common commands for all plots
+
+set terminal wxt size 700,450
+set terminal wxt title 'Plots'
+
+# Line width of the axes
+set border linewidth 1.5
+
+# Line styles
+set style line 1 linecolor rgb '#0060ad' linetype 1 linewidth 2		#blue
+set style line 2 linecolor rgb '#dd181f' linetype 1 linewidth 2		#red
+set style line 3 linecolor rgb '#32c832' linetype 1 linewidth 2		#green
+set style line 4 linecolor rgb '#32c832' linetype 1 linewidth 1		#green
+
+set style line 5 linecolor rgb '#0060ad' linetype 1 linewidth 2 pt 7 ps 1.5
+
+
+#others
+unset key
+set grid
+#set terminal wxt 0
+#plot sin(x)
+#set terminal wxt 1
+#plot cos(x)

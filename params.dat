@@ -1,0 +1,16 @@
+﻿// POISEUILLE //
+const int WIDTH = 750;
+const int HEIGHT = 500;
+const int M = 5;
+const int a = 1;
+const int Lx = 60 * a;
+const int Ly = 30 * a;	//Even 
+const float delta_T = 1;
+const float kB_T = 0.011;
+const float alpha = 130;
+const float g = 0.0015;
+const int m = 1;
+
+τ = 9.53
+τ^2 = 91
+g = 0.00001
